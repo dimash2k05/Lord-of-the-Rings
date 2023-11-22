@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/trailer.css">
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+  <title> Document </title>
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a class="navbar-brand" href="homepage.html">Home page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="characters.html">Characters</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="credits.html">Credits</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="trailer.html">Plot Story</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="quiz.html">Quiz</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="purchase.html">Purchase Ticket</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="custom-container">
+
+    <video autoplay loop muted plays-inline class="background-clip" id="Myvideo">
+      <source src="../videos/trailer.mp4" type="video/mp4">
+    </video>
+
+    <div class="content" id="cnt">
+      <h1 class="text-white"> Lord of the Rings </h1>
+      <a href="#" id="trailerBtn" onclick="removeMuted(event)">Watch the trailer</a>
+    </div>
+  </div>
+
+  <div class="container my-5 d-grid gap-5">
+    <div class="p-5 my-5">
+      <div class="content text-center">
+        <h1> Plot story </h1>
+        <p>
+          "The Lord of the Rings" is an epic high-fantasy novel written by J.R.R. Tolkien. The story is set in the fictional world of Middle-earth and follows the quest to destroy the One Ring, which was created by the dark lord Sauron to conquer the free peoples of Middle-earth.
+
+          The narrative centers around Frodo Baggins, a young hobbit who inherits the Ring. Frodo, assisted by a Fellowship that includes humans, an elf, a dwarf, a wizard, and other hobbits, embarks on a perilous journey to Mount Doom, the only place where the Ring can be destroyed.
+
+          Throughout their journey, the Fellowship faces numerous challenges, including battles with Sauron's forces, internal conflicts, and the corrupting influence of the Ring itself. The story explores themes of friendship, courage, and the struggle between good and evil.
+
+          The plot is divided into three volumes: "The Fellowship of the Ring," "The Two Towers," and "The Return of the King." Each volume details various aspects of the journey and the larger conflict encompassing Middle-earth, culminating in the ultimate defeat of Sauron and the restoration of peace.
+        </p>
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+      </div>
+    </div>
+  </div>
+  <script src="../js/trailer.js"></script>
+</body>
+
+</html>

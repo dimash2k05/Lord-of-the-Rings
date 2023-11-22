@@ -1,0 +1,32 @@
+body{
+  background-image: url("../images/background2.jpg");
+  color: aliceblue;
+  text-align: center; 
+  background-size: cover;
+  margin-bottom: 300px; 
+}
+
+.creditssection {
+  background-color: aliceblue;
+  margin-top: 400px;
+  color: black;
+  padding: 50px 50px 50px 50px;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
